@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-export const Statistics = ({ title, stats }) => {
+export const Statistics = ({ title = 0, stats }) => {
   return (
     <>
       <div>{title.length > 0 && <h2>{title}</h2>}</div>
